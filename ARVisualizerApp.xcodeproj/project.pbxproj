@@ -6,7 +6,14 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		F54E30CB2DF37380007AFC73 /* ReadMe_Ru.md in Resources */ = {isa = PBXBuildFile; fileRef = F54E30CA2DF37380007AFC73 /* ReadMe_Ru.md */; };
+		F54E30CD2DF3740A007AFC73 /* ReadMe.md in Resources */ = {isa = PBXBuildFile; fileRef = F54E30CC2DF3740A007AFC73 /* ReadMe.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		F54E30CA2DF37380007AFC73 /* ReadMe_Ru.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ReadMe_Ru.md; sourceTree = "<group>"; };
+		F54E30CC2DF3740A007AFC73 /* ReadMe.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ReadMe.md; sourceTree = "<group>"; };
 		F5B0371D2DF2225700A02706 /* ARVisualizerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARVisualizerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -14,7 +21,7 @@
 		F5B0372C2DF224C900A02706 /* Exceptions for "ARVisualizerApp" folder in "ARVisualizerApp" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				Info.plist,
+				App/Info.plist,
 			);
 			target = F5B0371C2DF2225700A02706 /* ARVisualizerApp */;
 		};
@@ -45,6 +52,8 @@
 		F5B037142DF2225700A02706 = {
 			isa = PBXGroup;
 			children = (
+				F54E30CA2DF37380007AFC73 /* ReadMe_Ru.md */,
+				F54E30CC2DF3740A007AFC73 /* ReadMe.md */,
 				F5B0371F2DF2225700A02706 /* ARVisualizerApp */,
 				F5B0371E2DF2225700A02706 /* Products */,
 			);
@@ -122,6 +131,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F54E30CD2DF3740A007AFC73 /* ReadMe.md in Resources */,
+				F54E30CB2DF37380007AFC73 /* ReadMe_Ru.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,7 +280,7 @@
 				DEVELOPMENT_TEAM = XKWG4AGNW6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ARVisualizerApp/Info.plist;
+				INFOPLIST_FILE = ARVisualizerApp/App/Info.plist;
 				INFOPLIST_KEY_NSCameraUsageDescription = "Это приложение использует камеру для отображения AR-сцены.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -300,7 +311,7 @@
 				DEVELOPMENT_TEAM = XKWG4AGNW6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ARVisualizerApp/Info.plist;
+				INFOPLIST_FILE = ARVisualizerApp/App/Info.plist;
 				INFOPLIST_KEY_NSCameraUsageDescription = "Это приложение использует камеру для отображения AR-сцены.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

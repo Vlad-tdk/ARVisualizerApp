@@ -110,8 +110,8 @@ private func optimizeARViewSettings(_ arView: ARView) {
 
 ### 1. Клонирование репозитория
 ```bash
-git clone https://github.com/your-username/ar-visualizer-app.git
-cd ar-visualizer-app
+git clone https://github.com/Vlad-tdk/ARVisualizerApp.git
+cd ARVisualizerApp
 ```
 
 ### 2. Открытие проекта
